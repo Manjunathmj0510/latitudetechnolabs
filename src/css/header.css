@@ -1,0 +1,48 @@
+.lp-navbar-items{
+    list-style: none;
+    display: flex;
+    text-align: left;
+    font-weight: 500;
+}
+
+.lp-navbar-items li{
+  margin-right: 5%;
+}
+.lp-header-container{
+    display: block;
+    background-color: #fff;
+    padding: 1%;
+    border-radius:0px 0px 10px 10px;
+    border: 2px solid #fff; 
+    width:100%;
+}
+.lp-navbar-item{
+    text-align: left !important;
+}
+.lp-navbar-logo{
+    text-align: right !important;
+}
+.lp-navbar-buttons-div{
+    text-align: right !important;
+}
+.lp-navbar-buttons{
+    background-color:#fff;
+    color: black;
+    margin-right: 2%;
+    border-radius: 13px;
+    min-width:100px;
+    min-height: 30px;
+    font-size: 1rem;
+    border: 1px solid #555;
+    font-weight: 500;
+}
+.lp-navbar-buttons:hover{
+    background-color:#1c2e01;
+    color:#fff;
+}
+
+@media (max-width:760px){
+    .lp-navbar-item{
+        display: none;
+    }
+}

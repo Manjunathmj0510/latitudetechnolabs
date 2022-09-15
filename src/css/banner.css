@@ -1,0 +1,52 @@
+.lp-banner-container{
+    display: inline-block;
+    width:100%;
+    padding: 2% 1%;
+    object-fit: cover;
+    position: relative;
+}
+
+.lp-banner-image{
+    width:100%;
+    max-height:450px;
+    object-fit: cover;
+    border-radius:12px; 
+}
+
+.lp-banner-details{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    margin: auto 35%;
+    top:80px;
+}
+.lp-banner-details p{
+    color:#fff;
+    font-size: 2rem;
+    font-weight: 400;
+    justify-content: center;
+    text-align: center;
+}
+
+.lp-banner-form {
+    max-width: 400px;
+    margin: auto;
+}
+.lp-banner-button{
+    position: relative;
+    max-width: 50px;
+    margin-left: -17%;
+}
+
+@media (max-width:668px){
+    .lp-banner-details{
+    margin: auto 22%;
+    }
+}
+@media (min-width:1441px){
+    .lp-banner-details{
+    margin: auto 46%;
+    top:170px;
+    }
+}
+
